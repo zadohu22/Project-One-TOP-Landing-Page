@@ -6,12 +6,16 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(19, 108, 185);
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 /* *************** NAVBAR ***************** */
+
+.navbar{
+    background-color: #1F2937;
+}
 
 .left, .right{
     display: flex;
@@ -55,9 +59,10 @@ a{
 .sectionOneContainer{
     display: flex;
     gap: 100px;
-    margin-top: 150px;
+    margin-top: 75px;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
 
 .sectionOneLeft{
@@ -82,7 +87,7 @@ a{
     margin-top: 20px;
     font-size: 20px;
     padding: 8px 15px;
-    background-color: rgb(19, 108, 185);
+    background-color: #3882F6;
     border: .5px solid white;
     color: white;
     transition: all ease-in .3s;
@@ -90,16 +95,12 @@ a{
 }
 
 .sectionOneLeft button:hover{
-    background-color: white;
-    color: black;
+    background-color: #1F2937;
+    color: #3882F6;
 }
 
 .sectionOneRight{
     flex: 1;
-}
-
-.heroImage{
-    /* max-height: 300px; */
 }
 
 /* *************** SECOND SECTION***************** */
@@ -128,6 +129,7 @@ a{
 
 .sectionTwoContent p{
     margin-bottom: 80px;
+    color: black;
 }
 .boxOneContainer{
     display: flex;
@@ -194,7 +196,7 @@ a{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     overflow: auto;
@@ -218,4 +220,61 @@ a{
     padding-left: 400px;
     
     
+}
+
+/* *************** FOURTH  SECTION***************** */
+
+.sectionFour{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.actionBox{
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.textBox h2, p{
+    color: white;
+}
+
+.signUp button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 8px 15px;
+    background-color: #3882F6;
+    border: .5px solid white;
+    color: white;
+    transition: all ease-in .3s;
+    cursor: pointer;
+}
+
+.signUp button:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
