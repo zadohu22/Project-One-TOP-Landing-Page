@@ -1,0 +1,182 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(19, 108, 185);
+    display: flex;
+    flex-direction: column;
+}
+
+/* *************** NAVBAR ***************** */
+
+.left, .right{
+    display: flex;
+}
+
+.right{
+    margin-right: 150px;
+    list-style: none;
+}
+
+.left{
+    margin-left: 150px;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* *************** FIRST SECTION***************** */
+
+.sectionOneContainer{
+    display: flex;
+    gap: 100px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOneLeft{
+    margin-left: 150px;
+    flex: 1;
+    /* text-align: center; */
+}
+
+.sectionOneLeft h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sectionOneLeft p{
+    color: whitesmoke;
+}
+
+.sectionOneLeft button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 8px 15px;
+    background-color: rgb(19, 108, 185);
+    border: .5px solid white;
+    color: white;
+    transition: all ease-in .3s;
+    cursor: pointer;
+}
+
+.sectionOneLeft button:hover{
+    background-color: white;
+    color: black;
+}
+
+.sectionOneRight{
+    flex: 1;
+}
+
+.heroImage{
+    /* max-height: 300px; */
+}
+
+/* *************** SECOND SECTION***************** */
+
+.sectionTwo{
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwoHead h1{
+    font-size: 40px;
+}
+
+.sectionTwoContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    flex-grow: 1;
+}   
+.boxOneContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+}
+
+.boxOneContainer p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boxTwoContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+}
+
+.boxTwoContainer p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boxThreeContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    overflow-wrap: break-word;
+    margin-right: 20px;
+}
+
+.boxThreeContainer p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.boxFourContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    overflow-wrap: break-word;
+    
+}
+
+.boxFourContainer p{
+    margin-top: 10px;
+    text-align: center;
+}
+.box{
+    border: 4px solid rgb(19, 108, 185);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
